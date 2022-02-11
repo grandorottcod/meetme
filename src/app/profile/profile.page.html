@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-text color="black">
+    <div *ngIf="renderProfile == true">
+     {{user.email}}  , {{user.firstname}}, {{user.lastname}}
+    </div>
+  </ion-text>
+</ion-content>
